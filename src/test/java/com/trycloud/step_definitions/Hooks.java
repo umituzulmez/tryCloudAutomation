@@ -1,16 +1,18 @@
 package com.trycloud.step_definitions;
 
+
+import com.trycloud.utilities.Driver;
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import java.sql.Driver;
+
 
 public class Hooks {
 
-   /* @Before
+   @Before
    public  void setUp(){
 
         Driver.get().manage().window().maximize();
@@ -38,6 +40,6 @@ public class Hooks {
     @Before("@db")
     public void setUpDatabase(){
         System.out.println("\tCONNECTION DATABASE");
-    }*/
+    }
 
 }
