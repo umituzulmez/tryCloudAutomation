@@ -1,6 +1,0 @@
-com/test.class
-com/trycloud/runners/CukesRunner.class
-com/trycloud/pages/LoginPage.class
-com/trycloud/step_definitions/LoginStepDefs.class
-com/trycloud/step_definitions/Hooks.class
-com/trycloud/pages/BasePage.class
