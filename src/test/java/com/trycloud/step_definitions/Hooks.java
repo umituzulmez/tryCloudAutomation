@@ -25,8 +25,10 @@ public class Hooks {
             final byte [] screenshot=((TakesScreenshot) Driver.get()).getScreenshotAs(OutputType.BYTES);
             scenario.embed(screenshot,"image/png");
 
+
+
         }
-        //Driver.closeDriver();
+        Driver.closeDriver();
     }
     @After("@store_manager")
     public void tearDownStoreManager(){
