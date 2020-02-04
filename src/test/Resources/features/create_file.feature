@@ -17,11 +17,7 @@ Feature:
       | New folder    | Bit_Bitersss    |
 
   @todo
-  Scenario: user shoul be able to delete files or folders
+  Scenario: user should be able to delete files or folders
     Given the user login the page
     When click search button
-    Then delete listed "Bit_Biters"
-
-
-
-
+    Then delete listed items "Bit_Biters"
