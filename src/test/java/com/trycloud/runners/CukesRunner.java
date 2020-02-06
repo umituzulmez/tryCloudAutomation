@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/Resources/features/",
         glue = "com/tryCloud/step_definitions/",
         dryRun = false,
-        tags = "@dashboard"
+        tags = "@TalkModuleThreeDots"
 
 )
 public class CukesRunner {
